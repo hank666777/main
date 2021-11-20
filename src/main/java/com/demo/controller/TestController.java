@@ -1,5 +1,6 @@
 package com.demo.controller;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +12,6 @@ public class TestController {
 
     @GetMapping("/test")
     public ResponseEntity<?> TestController(){
-        return new ResponseEntity<>(,);
+        return new ResponseEntity<>("test OK", HttpStatus.OK);
     }
 }

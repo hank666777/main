@@ -4,4 +4,8 @@ public class RedisConfig {
 
     public void test(){
     }
+
+    public void test2(){
+        
+    }
 }
